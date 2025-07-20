@@ -20,7 +20,7 @@ button.addEventListener('click', function () {
   deleteBtn.addEventListener('click', function () {
     li.remove();
   });
-
+  
   li.appendChild(deleteBtn);
   todoList.appendChild(li);
   input.value = '';

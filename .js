@@ -3,5 +3,6 @@ document.body.addEventListener(
   () => {
     console.log("Captured at body");
   },
-  true // 👈 this 'true' enables capture phase
+  true // 👈 this 'true' enables capture phase in the log
 );
+ 
